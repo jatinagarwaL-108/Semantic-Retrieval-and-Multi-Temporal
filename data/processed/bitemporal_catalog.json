@@ -1,0 +1,3296 @@
+[
+  {
+    "pair_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t000_VS_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t000",
+    "pre_tile": {
+      "tile_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t000",
+      "parent_scene_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2024-03-23",
+      "crs": "EPSG:32644",
+      "bounds": [
+        620000.0,
+        2959880.0,
+        625120.0,
+        2965000.0
+      ],
+      "window": {
+        "col_off": 0,
+        "row_off": 0,
+        "width": 512,
+        "height": 512
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              620000.0,
+              2959880.0
+            ],
+            [
+              625120.0,
+              2959880.0
+            ],
+            [
+              625120.0,
+              2965000.0
+            ],
+            [
+              620000.0,
+              2965000.0
+            ],
+            [
+              620000.0,
+              2959880.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t000.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t000_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t000_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t000_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.0,
+        "shadow_percent": 0.0,
+        "water_percent": 7.05,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 100.0,
+        "mean_cloud_probability": 0.505,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1187,
+          "p_high": 0.3482,
+          "min": 0.0,
+          "max": 0.7764,
+          "mean": 0.18532,
+          "std": 0.05981
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1445,
+          "p_high": 0.3884,
+          "min": 0.1144,
+          "max": 0.8288,
+          "mean": 0.21768,
+          "std": 0.06423
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1348,
+          "p_high": 0.4144,
+          "min": 0.1051,
+          "max": 0.8864,
+          "mean": 0.22843,
+          "std": 0.07546
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1248,
+          "p_high": 0.4528,
+          "min": 0.1044,
+          "max": 0.8904,
+          "mean": 0.35029,
+          "std": 0.06595
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1371,
+          "p_high": 0.5222,
+          "min": 0.1252,
+          "max": 0.6693,
+          "mean": 0.35474,
+          "std": 0.08288
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1376,
+          "p_high": 0.5301,
+          "min": 0.1261,
+          "max": 0.6854,
+          "mean": 0.31242,
+          "std": 0.09338
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.2168,
+        "mean_ndbi": 0.003,
+        "mean_ndwi": -0.235
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "post_tile": {
+      "tile_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t000",
+      "parent_scene_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2025-12-13",
+      "crs": "EPSG:32644",
+      "bounds": [
+        620000.0,
+        2959880.0,
+        625120.0,
+        2965000.0
+      ],
+      "window": {
+        "col_off": 0,
+        "row_off": 0,
+        "width": 512,
+        "height": 512
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              620000.0,
+              2959880.0
+            ],
+            [
+              625120.0,
+              2959880.0
+            ],
+            [
+              625120.0,
+              2965000.0
+            ],
+            [
+              620000.0,
+              2965000.0
+            ],
+            [
+              620000.0,
+              2959880.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t000.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t000_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t000_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t000_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.0,
+        "shadow_percent": 0.0,
+        "water_percent": 14.93,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 100.0,
+        "mean_cloud_probability": 0.586,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.182,
+          "p_high": 0.3026,
+          "min": 0.1629,
+          "max": 0.375,
+          "mean": 0.22104,
+          "std": 0.02813
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.2007,
+          "p_high": 0.334,
+          "min": 0.1782,
+          "max": 0.4038,
+          "mean": 0.24135,
+          "std": 0.03089
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1908,
+          "p_high": 0.3576,
+          "min": 0.1665,
+          "max": 0.442,
+          "mean": 0.24363,
+          "std": 0.039
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.204,
+          "p_high": 0.4164,
+          "min": 0.1836,
+          "max": 0.5724,
+          "mean": 0.32793,
+          "std": 0.04461
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1323,
+          "p_high": 0.4775,
+          "min": 0.1186,
+          "max": 0.6385,
+          "mean": 0.31885,
+          "std": 0.06552
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1214,
+          "p_high": 0.4851,
+          "min": 0.1004,
+          "max": 0.6699,
+          "mean": 0.27562,
+          "std": 0.07512
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.1467,
+        "mean_ndbi": -0.021,
+        "mean_ndwi": -0.1496
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "bounds": [
+      620000.0,
+      2959880.0,
+      625120.0,
+      2965000.0
+    ],
+    "geojson_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            620000.0,
+            2959880.0
+          ],
+          [
+            625120.0,
+            2959880.0
+          ],
+          [
+            625120.0,
+            2965000.0
+          ],
+          [
+            620000.0,
+            2965000.0
+          ],
+          [
+            620000.0,
+            2959880.0
+          ]
+        ]
+      ]
+    },
+    "co_registration": {
+      "shift_x_pixels": -46.149,
+      "shift_y_pixels": -21.109,
+      "total_shift_pixels": 50.748,
+      "peak_correlation": 0.1104,
+      "max_allowed_shift_pixels": 1.0,
+      "min_correlation_threshold": 0.5,
+      "is_aligned": false,
+      "status": "MISALIGNED_WARNING",
+      "warning": "Tile pair misregistered by 50.75 px (> 1.0 px threshold)"
+    },
+    "band_difference_stats": {
+      "B02": {
+        "mean_delta": 0.03573,
+        "std_delta": 0.05312,
+        "max_abs_delta": 0.5458,
+        "p95_abs_delta": 0.111
+      },
+      "B03": {
+        "mean_delta": 0.02367,
+        "std_delta": 0.05721,
+        "max_abs_delta": 0.5726,
+        "p95_abs_delta": 0.1166
+      },
+      "B04": {
+        "mean_delta": 0.0152,
+        "std_delta": 0.06888,
+        "max_abs_delta": 0.6196,
+        "p95_abs_delta": 0.1398
+      },
+      "B08": {
+        "mean_delta": -0.02236,
+        "std_delta": 0.07579,
+        "max_abs_delta": 0.5454,
+        "p95_abs_delta": 0.1706
+      },
+      "B11": {
+        "mean_delta": -0.0359,
+        "std_delta": 0.09835,
+        "max_abs_delta": 0.416,
+        "p95_abs_delta": 0.2298
+      },
+      "B12": {
+        "mean_delta": -0.0368,
+        "std_delta": 0.10862,
+        "max_abs_delta": 0.435,
+        "p95_abs_delta": 0.2464
+      },
+      "delta_NDVI": {
+        "mean": -0.07,
+        "vegetation_loss_area_ratio": 0.1777
+      },
+      "delta_NDBI": {
+        "mean": -0.0241,
+        "urban_gain_area_ratio": 0.0434
+      },
+      "delta_NDWI": {
+        "mean": 0.0854,
+        "water_change_area_ratio": 0.1244
+      }
+    },
+    "band_difference_file": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t000_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t000_banddiff.npy"
+  },
+  {
+    "pair_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t001_VS_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t001",
+    "pre_tile": {
+      "tile_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t001",
+      "parent_scene_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2024-03-23",
+      "crs": "EPSG:32644",
+      "bounds": [
+        624800.0,
+        2959880.0,
+        629920.0,
+        2965000.0
+      ],
+      "window": {
+        "col_off": 480,
+        "row_off": 0,
+        "width": 512,
+        "height": 512
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              624800.0,
+              2959880.0
+            ],
+            [
+              629920.0,
+              2959880.0
+            ],
+            [
+              629920.0,
+              2965000.0
+            ],
+            [
+              624800.0,
+              2965000.0
+            ],
+            [
+              624800.0,
+              2959880.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t001.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t001_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t001_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t001_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.01,
+        "shadow_percent": 0.0,
+        "water_percent": 10.64,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 99.99,
+        "mean_cloud_probability": 0.52,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1092,
+          "p_high": 0.3678,
+          "min": 0.0,
+          "max": 0.4284,
+          "mean": 0.1969,
+          "std": 0.07885
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1373,
+          "p_high": 0.4062,
+          "min": 0.1157,
+          "max": 0.4684,
+          "mean": 0.23056,
+          "std": 0.08335
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1298,
+          "p_high": 0.4312,
+          "min": 0.1101,
+          "max": 0.4716,
+          "mean": 0.24113,
+          "std": 0.09494
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1187,
+          "p_high": 0.4596,
+          "min": 0.1058,
+          "max": 0.5784,
+          "mean": 0.35895,
+          "std": 0.07791
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1331,
+          "p_high": 0.5383,
+          "min": 0.1246,
+          "max": 0.5656,
+          "mean": 0.35811,
+          "std": 0.10435
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1364,
+          "p_high": 0.5518,
+          "min": 0.1273,
+          "max": 0.5815,
+          "mean": 0.32416,
+          "std": 0.12101
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.2067,
+        "mean_ndbi": -0.0073,
+        "mean_ndwi": -0.2224
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "post_tile": {
+      "tile_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t001",
+      "parent_scene_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2025-12-13",
+      "crs": "EPSG:32644",
+      "bounds": [
+        624800.0,
+        2959880.0,
+        629920.0,
+        2965000.0
+      ],
+      "window": {
+        "col_off": 480,
+        "row_off": 0,
+        "width": 512,
+        "height": 512
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              624800.0,
+              2959880.0
+            ],
+            [
+              629920.0,
+              2959880.0
+            ],
+            [
+              629920.0,
+              2965000.0
+            ],
+            [
+              624800.0,
+              2965000.0
+            ],
+            [
+              624800.0,
+              2959880.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t001.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t001_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t001_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t001_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 1.65,
+        "shadow_percent": 1.7,
+        "water_percent": 25.18,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 96.66,
+        "mean_cloud_probability": 0.609,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1898,
+          "p_high": 0.319,
+          "min": 0.169,
+          "max": 0.3578,
+          "mean": 0.23107,
+          "std": 0.02817
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.2068,
+          "p_high": 0.3526,
+          "min": 0.1825,
+          "max": 0.3924,
+          "mean": 0.25313,
+          "std": 0.03189
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1968,
+          "p_high": 0.377,
+          "min": 0.1728,
+          "max": 0.4196,
+          "mean": 0.25818,
+          "std": 0.039
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1966,
+          "p_high": 0.4184,
+          "min": 0.1784,
+          "max": 0.546,
+          "mean": 0.30601,
+          "std": 0.05305
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1221,
+          "p_high": 0.4999,
+          "min": 0.1166,
+          "max": 0.5443,
+          "mean": 0.30483,
+          "std": 0.0867
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1154,
+          "p_high": 0.5132,
+          "min": 0.1104,
+          "max": 0.5625,
+          "mean": 0.28071,
+          "std": 0.09267
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.0781,
+        "mean_ndbi": -0.0214,
+        "mean_ndwi": -0.0863
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "bounds": [
+      624800.0,
+      2959880.0,
+      629920.0,
+      2965000.0
+    ],
+    "geojson_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            624800.0,
+            2959880.0
+          ],
+          [
+            629920.0,
+            2959880.0
+          ],
+          [
+            629920.0,
+            2965000.0
+          ],
+          [
+            624800.0,
+            2965000.0
+          ],
+          [
+            624800.0,
+            2959880.0
+          ]
+        ]
+      ]
+    },
+    "co_registration": {
+      "shift_x_pixels": 1.707,
+      "shift_y_pixels": -47.382,
+      "total_shift_pixels": 47.412,
+      "peak_correlation": 0.2956,
+      "max_allowed_shift_pixels": 1.0,
+      "min_correlation_threshold": 0.5,
+      "is_aligned": false,
+      "status": "MISALIGNED_WARNING",
+      "warning": "Tile pair misregistered by 47.41 px (> 1.0 px threshold)"
+    },
+    "band_difference_stats": {
+      "B02": {
+        "mean_delta": 0.0343,
+        "std_delta": 0.07693,
+        "max_abs_delta": 0.2426,
+        "p95_abs_delta": 0.13848
+      },
+      "B03": {
+        "mean_delta": 0.02269,
+        "std_delta": 0.08124,
+        "max_abs_delta": 0.2238,
+        "p95_abs_delta": 0.1464
+      },
+      "B04": {
+        "mean_delta": 0.01709,
+        "std_delta": 0.09495,
+        "max_abs_delta": 0.2698,
+        "p95_abs_delta": 0.1692
+      },
+      "B08": {
+        "mean_delta": -0.05444,
+        "std_delta": 0.09783,
+        "max_abs_delta": 0.3403,
+        "p95_abs_delta": 0.2342
+      },
+      "B11": {
+        "mean_delta": -0.05589,
+        "std_delta": 0.14702,
+        "max_abs_delta": 0.4344,
+        "p95_abs_delta": 0.3774
+      },
+      "B12": {
+        "mean_delta": -0.04582,
+        "std_delta": 0.16353,
+        "max_abs_delta": 0.4573,
+        "p95_abs_delta": 0.39318
+      },
+      "delta_NDVI": {
+        "mean": -0.1286,
+        "vegetation_loss_area_ratio": 0.3064
+      },
+      "delta_NDBI": {
+        "mean": -0.014,
+        "urban_gain_area_ratio": 0.1022
+      },
+      "delta_NDWI": {
+        "mean": 0.1361,
+        "water_change_area_ratio": 0.2556
+      }
+    },
+    "band_difference_file": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t001_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t001_banddiff.npy"
+  },
+  {
+    "pair_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t002_VS_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t002",
+    "pre_tile": {
+      "tile_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t002",
+      "parent_scene_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2024-03-23",
+      "crs": "EPSG:32644",
+      "bounds": [
+        629600.0,
+        2959880.0,
+        630240.0,
+        2965000.0
+      ],
+      "window": {
+        "col_off": 960,
+        "row_off": 0,
+        "width": 64,
+        "height": 512
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              629600.0,
+              2959880.0
+            ],
+            [
+              630240.0,
+              2959880.0
+            ],
+            [
+              630240.0,
+              2965000.0
+            ],
+            [
+              629600.0,
+              2965000.0
+            ],
+            [
+              629600.0,
+              2959880.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t002.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t002_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t002_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t002_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.0,
+        "shadow_percent": 0.0,
+        "water_percent": 0.05,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 100.0,
+        "mean_cloud_probability": 0.473,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1135,
+          "p_high": 0.31893,
+          "min": 0.0983,
+          "max": 0.3786,
+          "mean": 0.1593,
+          "std": 0.04313
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1421,
+          "p_high": 0.35773,
+          "min": 0.1254,
+          "max": 0.4144,
+          "mean": 0.18836,
+          "std": 0.04609
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1342,
+          "p_high": 0.3808,
+          "min": 0.1173,
+          "max": 0.4424,
+          "mean": 0.19148,
+          "std": 0.05487
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.26987,
+          "p_high": 0.4476,
+          "min": 0.1331,
+          "max": 0.5392,
+          "mean": 0.3664,
+          "std": 0.0431
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.2379,
+          "p_high": 0.4723,
+          "min": 0.1521,
+          "max": 0.5259,
+          "mean": 0.31217,
+          "std": 0.05647
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1842,
+          "p_high": 0.47043,
+          "min": 0.141,
+          "max": 0.5359,
+          "mean": 0.25985,
+          "std": 0.06594
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.3192,
+        "mean_ndbi": -0.0826,
+        "mean_ndwi": -0.3239
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "post_tile": {
+      "tile_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t002",
+      "parent_scene_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2025-12-13",
+      "crs": "EPSG:32644",
+      "bounds": [
+        629600.0,
+        2959880.0,
+        630240.0,
+        2965000.0
+      ],
+      "window": {
+        "col_off": 960,
+        "row_off": 0,
+        "width": 64,
+        "height": 512
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              629600.0,
+              2959880.0
+            ],
+            [
+              630240.0,
+              2959880.0
+            ],
+            [
+              630240.0,
+              2965000.0
+            ],
+            [
+              629600.0,
+              2965000.0
+            ],
+            [
+              629600.0,
+              2959880.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t002.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t002_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t002_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t002_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.0,
+        "shadow_percent": 0.0,
+        "water_percent": 0.98,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 100.0,
+        "mean_cloud_probability": 0.581,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1867,
+          "p_high": 0.26793,
+          "min": 0.1686,
+          "max": 0.3364,
+          "mean": 0.21906,
+          "std": 0.01841
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.2014,
+          "p_high": 0.29793,
+          "min": 0.1844,
+          "max": 0.3632,
+          "mean": 0.23897,
+          "std": 0.02154
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1916,
+          "p_high": 0.3166,
+          "min": 0.1727,
+          "max": 0.3944,
+          "mean": 0.24386,
+          "std": 0.0287
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.216,
+          "p_high": 0.399,
+          "min": 0.1871,
+          "max": 0.5244,
+          "mean": 0.32518,
+          "std": 0.03423
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1516,
+          "p_high": 0.43003,
+          "min": 0.1267,
+          "max": 0.5213,
+          "mean": 0.32003,
+          "std": 0.05529
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1356,
+          "p_high": 0.41737,
+          "min": 0.1176,
+          "max": 0.5364,
+          "mean": 0.28701,
+          "std": 0.06487
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.1423,
+        "mean_ndbi": -0.0136,
+        "mean_ndwi": -0.1511
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "bounds": [
+      629600.0,
+      2959880.0,
+      630240.0,
+      2965000.0
+    ],
+    "geojson_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            629600.0,
+            2959880.0
+          ],
+          [
+            630240.0,
+            2959880.0
+          ],
+          [
+            630240.0,
+            2965000.0
+          ],
+          [
+            629600.0,
+            2965000.0
+          ],
+          [
+            629600.0,
+            2959880.0
+          ]
+        ]
+      ]
+    },
+    "co_registration": {
+      "shift_x_pixels": 0.018,
+      "shift_y_pixels": -0.04,
+      "total_shift_pixels": 0.044,
+      "peak_correlation": 0.4381,
+      "max_allowed_shift_pixels": 1.0,
+      "min_correlation_threshold": 0.5,
+      "is_aligned": false,
+      "status": "MISALIGNED_WARNING",
+      "warning": "Tile pair misregistered by 0.04 px (> 1.0 px threshold)"
+    },
+    "band_difference_stats": {
+      "B02": {
+        "mean_delta": 0.05975,
+        "std_delta": 0.04396,
+        "max_abs_delta": 0.2047,
+        "p95_abs_delta": 0.1126
+      },
+      "B03": {
+        "mean_delta": 0.05061,
+        "std_delta": 0.04757,
+        "max_abs_delta": 0.2156,
+        "p95_abs_delta": 0.111
+      },
+      "B04": {
+        "mean_delta": 0.05239,
+        "std_delta": 0.05837,
+        "max_abs_delta": 0.2584,
+        "p95_abs_delta": 0.1284
+      },
+      "B08": {
+        "mean_delta": -0.04122,
+        "std_delta": 0.0509,
+        "max_abs_delta": 0.2876,
+        "p95_abs_delta": 0.1358
+      },
+      "B11": {
+        "mean_delta": 0.00786,
+        "std_delta": 0.08094,
+        "max_abs_delta": 0.3576,
+        "p95_abs_delta": 0.1537
+      },
+      "B12": {
+        "mean_delta": 0.02716,
+        "std_delta": 0.09541,
+        "max_abs_delta": 0.3765,
+        "p95_abs_delta": 0.1738
+      },
+      "delta_NDVI": {
+        "mean": -0.1769,
+        "vegetation_loss_area_ratio": 0.4601
+      },
+      "delta_NDBI": {
+        "mean": 0.0691,
+        "urban_gain_area_ratio": 0.1911
+      },
+      "delta_NDWI": {
+        "mean": 0.1728,
+        "water_change_area_ratio": 0.2654
+      }
+    },
+    "band_difference_file": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t002_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t002_banddiff.npy"
+  },
+  {
+    "pair_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t003_VS_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t003",
+    "pre_tile": {
+      "tile_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t003",
+      "parent_scene_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2024-03-23",
+      "crs": "EPSG:32644",
+      "bounds": [
+        620000.0,
+        2955080.0,
+        625120.0,
+        2960200.0
+      ],
+      "window": {
+        "col_off": 0,
+        "row_off": 480,
+        "width": 512,
+        "height": 512
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              620000.0,
+              2955080.0
+            ],
+            [
+              625120.0,
+              2955080.0
+            ],
+            [
+              625120.0,
+              2960200.0
+            ],
+            [
+              620000.0,
+              2960200.0
+            ],
+            [
+              620000.0,
+              2955080.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t003.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t003_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t003_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t003_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.0,
+        "shadow_percent": 0.0,
+        "water_percent": 0.41,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 100.0,
+        "mean_cloud_probability": 0.464,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1146,
+          "p_high": 0.2476,
+          "min": 0.0865,
+          "max": 0.688,
+          "mean": 0.15699,
+          "std": 0.03607
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1378,
+          "p_high": 0.2898,
+          "min": 0.1186,
+          "max": 0.9664,
+          "mean": 0.18729,
+          "std": 0.03978
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1294,
+          "p_high": 0.329,
+          "min": 0.1136,
+          "max": 0.8416,
+          "mean": 0.1953,
+          "std": 0.05285
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.25037,
+          "p_high": 0.4532,
+          "min": 0.1203,
+          "max": 0.8528,
+          "mean": 0.35151,
+          "std": 0.04753
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.2399,
+          "p_high": 0.4644,
+          "min": 0.1229,
+          "max": 0.7373,
+          "mean": 0.32527,
+          "std": 0.05836
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1843,
+          "p_high": 0.4157,
+          "min": 0.1207,
+          "max": 0.649,
+          "mean": 0.2717,
+          "std": 0.06114
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.2909,
+        "mean_ndbi": -0.0414,
+        "mean_ndwi": -0.3059
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "post_tile": {
+      "tile_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t003",
+      "parent_scene_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2025-12-13",
+      "crs": "EPSG:32644",
+      "bounds": [
+        620000.0,
+        2955080.0,
+        625120.0,
+        2960200.0
+      ],
+      "window": {
+        "col_off": 0,
+        "row_off": 480,
+        "width": 512,
+        "height": 512
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              620000.0,
+              2955080.0
+            ],
+            [
+              625120.0,
+              2955080.0
+            ],
+            [
+              625120.0,
+              2960200.0
+            ],
+            [
+              620000.0,
+              2960200.0
+            ],
+            [
+              620000.0,
+              2955080.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t003.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t003_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t003_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t003_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.0,
+        "shadow_percent": 0.0,
+        "water_percent": 0.54,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 100.0,
+        "mean_cloud_probability": 0.558,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1755,
+          "p_high": 0.2388,
+          "min": 0.1524,
+          "max": 0.4244,
+          "mean": 0.20269,
+          "std": 0.01585
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1904,
+          "p_high": 0.2608,
+          "min": 0.1701,
+          "max": 0.4648,
+          "mean": 0.22299,
+          "std": 0.0173
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1784,
+          "p_high": 0.2798,
+          "min": 0.1577,
+          "max": 0.5356,
+          "mean": 0.22058,
+          "std": 0.02589
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.2754,
+          "p_high": 0.4444,
+          "min": 0.1836,
+          "max": 0.6404,
+          "mean": 0.34265,
+          "std": 0.03836
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.2304,
+          "p_high": 0.4147,
+          "min": 0.1243,
+          "max": 0.6697,
+          "mean": 0.30762,
+          "std": 0.04608
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.173,
+          "p_high": 0.3742,
+          "min": 0.1117,
+          "max": 0.6038,
+          "mean": 0.25398,
+          "std": 0.05316
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.2155,
+        "mean_ndbi": -0.056,
+        "mean_ndwi": -0.2092
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "bounds": [
+      620000.0,
+      2955080.0,
+      625120.0,
+      2960200.0
+    ],
+    "geojson_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            620000.0,
+            2955080.0
+          ],
+          [
+            625120.0,
+            2955080.0
+          ],
+          [
+            625120.0,
+            2960200.0
+          ],
+          [
+            620000.0,
+            2960200.0
+          ],
+          [
+            620000.0,
+            2955080.0
+          ]
+        ]
+      ]
+    },
+    "co_registration": {
+      "shift_x_pixels": -0.255,
+      "shift_y_pixels": 0.055,
+      "total_shift_pixels": 0.261,
+      "peak_correlation": 0.5405,
+      "max_allowed_shift_pixels": 1.0,
+      "min_correlation_threshold": 0.5,
+      "is_aligned": true,
+      "status": "ALIGNED",
+      "warning": null
+    },
+    "band_difference_stats": {
+      "B02": {
+        "mean_delta": 0.0457,
+        "std_delta": 0.03452,
+        "max_abs_delta": 0.459,
+        "p95_abs_delta": 0.0943
+      },
+      "B03": {
+        "mean_delta": 0.0357,
+        "std_delta": 0.03808,
+        "max_abs_delta": 0.7448,
+        "p95_abs_delta": 0.0911
+      },
+      "B04": {
+        "mean_delta": 0.02528,
+        "std_delta": 0.05013,
+        "max_abs_delta": 0.611,
+        "p95_abs_delta": 0.1062
+      },
+      "B08": {
+        "mean_delta": -0.00886,
+        "std_delta": 0.05311,
+        "max_abs_delta": 0.5126,
+        "p95_abs_delta": 0.1098
+      },
+      "B11": {
+        "mean_delta": -0.01764,
+        "std_delta": 0.05978,
+        "max_abs_delta": 0.3064,
+        "p95_abs_delta": 0.1233
+      },
+      "B12": {
+        "mean_delta": -0.01772,
+        "std_delta": 0.07155,
+        "max_abs_delta": 0.3158,
+        "p95_abs_delta": 0.1482
+      },
+      "delta_NDVI": {
+        "mean": -0.0754,
+        "vegetation_loss_area_ratio": 0.2026
+      },
+      "delta_NDBI": {
+        "mean": -0.0146,
+        "urban_gain_area_ratio": 0.0655
+      },
+      "delta_NDWI": {
+        "mean": 0.0967,
+        "water_change_area_ratio": 0.1081
+      }
+    },
+    "band_difference_file": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t003_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t003_banddiff.npy"
+  },
+  {
+    "pair_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t004_VS_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t004",
+    "pre_tile": {
+      "tile_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t004",
+      "parent_scene_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2024-03-23",
+      "crs": "EPSG:32644",
+      "bounds": [
+        624800.0,
+        2955080.0,
+        629920.0,
+        2960200.0
+      ],
+      "window": {
+        "col_off": 480,
+        "row_off": 480,
+        "width": 512,
+        "height": 512
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              624800.0,
+              2955080.0
+            ],
+            [
+              629920.0,
+              2955080.0
+            ],
+            [
+              629920.0,
+              2960200.0
+            ],
+            [
+              624800.0,
+              2960200.0
+            ],
+            [
+              624800.0,
+              2955080.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t004.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t004_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t004_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t004_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.0,
+        "shadow_percent": 0.0,
+        "water_percent": 5.58,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 100.0,
+        "mean_cloud_probability": 0.492,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1129,
+          "p_high": 0.3544,
+          "min": 0.0923,
+          "max": 0.4284,
+          "mean": 0.17912,
+          "std": 0.06287
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.139,
+          "p_high": 0.3946,
+          "min": 0.109,
+          "max": 0.4684,
+          "mean": 0.21222,
+          "std": 0.06775
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1297,
+          "p_high": 0.4208,
+          "min": 0.1122,
+          "max": 0.478,
+          "mean": 0.2242,
+          "std": 0.07869
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1266,
+          "p_high": 0.4596,
+          "min": 0.104,
+          "max": 0.5796,
+          "mean": 0.35507,
+          "std": 0.06414
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.14,
+          "p_high": 0.5298,
+          "min": 0.1232,
+          "max": 0.6054,
+          "mean": 0.34972,
+          "std": 0.08669
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.142,
+          "p_high": 0.5401,
+          "min": 0.1238,
+          "max": 0.6575,
+          "mean": 0.30658,
+          "std": 0.09994
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.2345,
+        "mean_ndbi": -0.0126,
+        "mean_ndwi": -0.2558
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "post_tile": {
+      "tile_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t004",
+      "parent_scene_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2025-12-13",
+      "crs": "EPSG:32644",
+      "bounds": [
+        624800.0,
+        2955080.0,
+        629920.0,
+        2960200.0
+      ],
+      "window": {
+        "col_off": 480,
+        "row_off": 480,
+        "width": 512,
+        "height": 512
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              624800.0,
+              2955080.0
+            ],
+            [
+              629920.0,
+              2955080.0
+            ],
+            [
+              629920.0,
+              2960200.0
+            ],
+            [
+              624800.0,
+              2960200.0
+            ],
+            [
+              624800.0,
+              2955080.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t004.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t004_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t004_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t004_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.22,
+        "shadow_percent": 0.79,
+        "water_percent": 16.94,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 98.99,
+        "mean_cloud_probability": 0.578,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1784,
+          "p_high": 0.3136,
+          "min": 0.1596,
+          "max": 0.3664,
+          "mean": 0.21378,
+          "std": 0.02791
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1964,
+          "p_high": 0.3454,
+          "min": 0.1722,
+          "max": 0.3952,
+          "mean": 0.23518,
+          "std": 0.0307
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1866,
+          "p_high": 0.3692,
+          "min": 0.1638,
+          "max": 0.4204,
+          "mean": 0.23677,
+          "std": 0.03849
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.2004,
+          "p_high": 0.4392,
+          "min": 0.1774,
+          "max": 0.5732,
+          "mean": 0.3237,
+          "std": 0.05036
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1242,
+          "p_high": 0.486,
+          "min": 0.1163,
+          "max": 0.5478,
+          "mean": 0.30394,
+          "std": 0.06457
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1171,
+          "p_high": 0.49322,
+          "min": 0.1101,
+          "max": 0.5675,
+          "mean": 0.26515,
+          "std": 0.07427
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.1522,
+        "mean_ndbi": -0.0377,
+        "mean_ndwi": -0.154
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "bounds": [
+      624800.0,
+      2955080.0,
+      629920.0,
+      2960200.0
+    ],
+    "geojson_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            624800.0,
+            2955080.0
+          ],
+          [
+            629920.0,
+            2955080.0
+          ],
+          [
+            629920.0,
+            2960200.0
+          ],
+          [
+            624800.0,
+            2960200.0
+          ],
+          [
+            624800.0,
+            2955080.0
+          ]
+        ]
+      ]
+    },
+    "co_registration": {
+      "shift_x_pixels": 59.036,
+      "shift_y_pixels": 55.827,
+      "total_shift_pixels": 81.252,
+      "peak_correlation": 0.2325,
+      "max_allowed_shift_pixels": 1.0,
+      "min_correlation_threshold": 0.5,
+      "is_aligned": false,
+      "status": "MISALIGNED_WARNING",
+      "warning": "Tile pair misregistered by 81.25 px (> 1.0 px threshold)"
+    },
+    "band_difference_stats": {
+      "B02": {
+        "mean_delta": 0.0347,
+        "std_delta": 0.05511,
+        "max_abs_delta": 0.2067,
+        "p95_abs_delta": 0.1103
+      },
+      "B03": {
+        "mean_delta": 0.02299,
+        "std_delta": 0.05975,
+        "max_abs_delta": 0.2092,
+        "p95_abs_delta": 0.1145
+      },
+      "B04": {
+        "mean_delta": 0.01261,
+        "std_delta": 0.07225,
+        "max_abs_delta": 0.2698,
+        "p95_abs_delta": 0.1363
+      },
+      "B08": {
+        "mean_delta": -0.03159,
+        "std_delta": 0.07566,
+        "max_abs_delta": 0.3403,
+        "p95_abs_delta": 0.1706
+      },
+      "B11": {
+        "mean_delta": -0.04607,
+        "std_delta": 0.09647,
+        "max_abs_delta": 0.4628,
+        "p95_abs_delta": 0.2183
+      },
+      "B12": {
+        "mean_delta": -0.04166,
+        "std_delta": 0.11307,
+        "max_abs_delta": 0.4768,
+        "p95_abs_delta": 0.23818
+      },
+      "delta_NDVI": {
+        "mean": -0.0822,
+        "vegetation_loss_area_ratio": 0.2391
+      },
+      "delta_NDBI": {
+        "mean": -0.0251,
+        "urban_gain_area_ratio": 0.0846
+      },
+      "delta_NDWI": {
+        "mean": 0.1018,
+        "water_change_area_ratio": 0.187
+      }
+    },
+    "band_difference_file": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t004_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t004_banddiff.npy"
+  },
+  {
+    "pair_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t005_VS_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t005",
+    "pre_tile": {
+      "tile_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t005",
+      "parent_scene_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2024-03-23",
+      "crs": "EPSG:32644",
+      "bounds": [
+        629600.0,
+        2955080.0,
+        630240.0,
+        2960200.0
+      ],
+      "window": {
+        "col_off": 960,
+        "row_off": 480,
+        "width": 64,
+        "height": 512
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              629600.0,
+              2955080.0
+            ],
+            [
+              630240.0,
+              2955080.0
+            ],
+            [
+              630240.0,
+              2960200.0
+            ],
+            [
+              629600.0,
+              2960200.0
+            ],
+            [
+              629600.0,
+              2955080.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t005.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t005_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t005_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t005_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.0,
+        "shadow_percent": 0.0,
+        "water_percent": 25.6,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 100.0,
+        "mean_cloud_probability": 0.546,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1053,
+          "p_high": 0.3696,
+          "min": 0.0,
+          "max": 0.391,
+          "mean": 0.2105,
+          "std": 0.08608
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1337,
+          "p_high": 0.4072,
+          "min": 0.1196,
+          "max": 0.4292,
+          "mean": 0.24651,
+          "std": 0.09002
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1263,
+          "p_high": 0.4316,
+          "min": 0.1122,
+          "max": 0.4552,
+          "mean": 0.25623,
+          "std": 0.10368
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1146,
+          "p_high": 0.4592,
+          "min": 0.104,
+          "max": 0.5288,
+          "mean": 0.32752,
+          "std": 0.11514
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1299,
+          "p_high": 0.53867,
+          "min": 0.1232,
+          "max": 0.5513,
+          "mean": 0.34581,
+          "std": 0.13625
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1313,
+          "p_high": 0.5526,
+          "min": 0.1238,
+          "max": 0.567,
+          "mean": 0.32457,
+          "std": 0.14419
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.1118,
+        "mean_ndbi": 0.0235,
+        "mean_ndwi": -0.1222
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "post_tile": {
+      "tile_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t005",
+      "parent_scene_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2025-12-13",
+      "crs": "EPSG:32644",
+      "bounds": [
+        629600.0,
+        2955080.0,
+        630240.0,
+        2960200.0
+      ],
+      "window": {
+        "col_off": 960,
+        "row_off": 480,
+        "width": 64,
+        "height": 512
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              629600.0,
+              2955080.0
+            ],
+            [
+              630240.0,
+              2955080.0
+            ],
+            [
+              630240.0,
+              2960200.0
+            ],
+            [
+              629600.0,
+              2960200.0
+            ],
+            [
+              629600.0,
+              2955080.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t005.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t005_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t005_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t005_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.2,
+        "shadow_percent": 0.0,
+        "water_percent": 31.11,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 99.8,
+        "mean_cloud_probability": 0.606,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1766,
+          "p_high": 0.2916,
+          "min": 0.1644,
+          "max": 0.3258,
+          "mean": 0.22672,
+          "std": 0.02678
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.198,
+          "p_high": 0.3228,
+          "min": 0.1842,
+          "max": 0.3576,
+          "mean": 0.25013,
+          "std": 0.02837
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.191,
+          "p_high": 0.345,
+          "min": 0.1768,
+          "max": 0.385,
+          "mean": 0.2539,
+          "std": 0.03642
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1964,
+          "p_high": 0.4124,
+          "min": 0.1789,
+          "max": 0.5628,
+          "mean": 0.30336,
+          "std": 0.05881
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1196,
+          "p_high": 0.4603,
+          "min": 0.1171,
+          "max": 0.5176,
+          "mean": 0.2879,
+          "std": 0.08749
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1128,
+          "p_high": 0.4661,
+          "min": 0.1105,
+          "max": 0.5461,
+          "mean": 0.26399,
+          "std": 0.09403
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.0818,
+        "mean_ndbi": -0.045,
+        "mean_ndwi": -0.0876
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "bounds": [
+      629600.0,
+      2955080.0,
+      630240.0,
+      2960200.0
+    ],
+    "geojson_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            629600.0,
+            2955080.0
+          ],
+          [
+            630240.0,
+            2955080.0
+          ],
+          [
+            630240.0,
+            2960200.0
+          ],
+          [
+            629600.0,
+            2960200.0
+          ],
+          [
+            629600.0,
+            2955080.0
+          ]
+        ]
+      ]
+    },
+    "co_registration": {
+      "shift_x_pixels": 2.867,
+      "shift_y_pixels": 24.026,
+      "total_shift_pixels": 24.197,
+      "peak_correlation": 0.2487,
+      "max_allowed_shift_pixels": 1.0,
+      "min_correlation_threshold": 0.5,
+      "is_aligned": false,
+      "status": "MISALIGNED_WARNING",
+      "warning": "Tile pair misregistered by 24.20 px (> 1.0 px threshold)"
+    },
+    "band_difference_stats": {
+      "B02": {
+        "mean_delta": 0.01624,
+        "std_delta": 0.08031,
+        "max_abs_delta": 0.2246,
+        "p95_abs_delta": 0.1304
+      },
+      "B03": {
+        "mean_delta": 0.00364,
+        "std_delta": 0.08508,
+        "max_abs_delta": 0.189,
+        "p95_abs_delta": 0.1454
+      },
+      "B04": {
+        "mean_delta": -0.00233,
+        "std_delta": 0.09986,
+        "max_abs_delta": 0.2334,
+        "p95_abs_delta": 0.16527
+      },
+      "B08": {
+        "mean_delta": -0.02436,
+        "std_delta": 0.10953,
+        "max_abs_delta": 0.3057,
+        "p95_abs_delta": 0.2158
+      },
+      "B11": {
+        "mean_delta": -0.05824,
+        "std_delta": 0.14342,
+        "max_abs_delta": 0.4204,
+        "p95_abs_delta": 0.3149
+      },
+      "B12": {
+        "mean_delta": -0.06089,
+        "std_delta": 0.15381,
+        "max_abs_delta": 0.4398,
+        "p95_abs_delta": 0.3261
+      },
+      "delta_NDVI": {
+        "mean": -0.03,
+        "vegetation_loss_area_ratio": 0.1478
+      },
+      "delta_NDBI": {
+        "mean": -0.0685,
+        "urban_gain_area_ratio": 0.0471
+      },
+      "delta_NDWI": {
+        "mean": 0.0346,
+        "water_change_area_ratio": 0.1764
+      }
+    },
+    "band_difference_file": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t005_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t005_banddiff.npy"
+  },
+  {
+    "pair_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t006_VS_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t006",
+    "pre_tile": {
+      "tile_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t006",
+      "parent_scene_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2024-03-23",
+      "crs": "EPSG:32644",
+      "bounds": [
+        620000.0,
+        2954760.0,
+        625120.0,
+        2955400.0
+      ],
+      "window": {
+        "col_off": 0,
+        "row_off": 960,
+        "width": 512,
+        "height": 64
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              620000.0,
+              2954760.0
+            ],
+            [
+              625120.0,
+              2954760.0
+            ],
+            [
+              625120.0,
+              2955400.0
+            ],
+            [
+              620000.0,
+              2955400.0
+            ],
+            [
+              620000.0,
+              2954760.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t006.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t006_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t006_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t006_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.0,
+        "shadow_percent": 0.0,
+        "water_percent": 0.0,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 100.0,
+        "mean_cloud_probability": 0.449,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1124,
+          "p_high": 0.2326,
+          "min": 0.1043,
+          "max": 0.368,
+          "mean": 0.1454,
+          "std": 0.03113
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1353,
+          "p_high": 0.2816,
+          "min": 0.1224,
+          "max": 0.4128,
+          "mean": 0.17521,
+          "std": 0.03583
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1255,
+          "p_high": 0.3214,
+          "min": 0.1136,
+          "max": 0.4996,
+          "mean": 0.1803,
+          "std": 0.0484
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.27467,
+          "p_high": 0.4684,
+          "min": 0.1229,
+          "max": 0.5924,
+          "mean": 0.36558,
+          "std": 0.04538
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.23823,
+          "p_high": 0.45977,
+          "min": 0.1393,
+          "max": 0.5773,
+          "mean": 0.31049,
+          "std": 0.05372
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1797,
+          "p_high": 0.41757,
+          "min": 0.1329,
+          "max": 0.5543,
+          "mean": 0.25329,
+          "std": 0.05787
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.3433,
+        "mean_ndbi": -0.0834,
+        "mean_ndwi": -0.3524
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "post_tile": {
+      "tile_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t006",
+      "parent_scene_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2025-12-13",
+      "crs": "EPSG:32644",
+      "bounds": [
+        620000.0,
+        2954760.0,
+        625120.0,
+        2955400.0
+      ],
+      "window": {
+        "col_off": 0,
+        "row_off": 960,
+        "width": 512,
+        "height": 64
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              620000.0,
+              2954760.0
+            ],
+            [
+              625120.0,
+              2954760.0
+            ],
+            [
+              625120.0,
+              2955400.0
+            ],
+            [
+              620000.0,
+              2955400.0
+            ],
+            [
+              620000.0,
+              2954760.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t006.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t006_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t006_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t006_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.0,
+        "shadow_percent": 0.0,
+        "water_percent": 0.01,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 100.0,
+        "mean_cloud_probability": 0.553,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1764,
+          "p_high": 0.2312,
+          "min": 0.1604,
+          "max": 0.2968,
+          "mean": 0.20376,
+          "std": 0.01402
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1913,
+          "p_high": 0.257,
+          "min": 0.1756,
+          "max": 0.3452,
+          "mean": 0.22552,
+          "std": 0.01664
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1804,
+          "p_high": 0.2758,
+          "min": 0.1631,
+          "max": 0.3768,
+          "mean": 0.22684,
+          "std": 0.02472
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.2832,
+          "p_high": 0.43186,
+          "min": 0.1926,
+          "max": 0.5596,
+          "mean": 0.34142,
+          "std": 0.0348
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.23997,
+          "p_high": 0.416,
+          "min": 0.1341,
+          "max": 0.5282,
+          "mean": 0.3268,
+          "std": 0.04413
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.181,
+          "p_high": 0.3919,
+          "min": 0.1223,
+          "max": 0.5364,
+          "mean": 0.28099,
+          "std": 0.05456
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.2009,
+        "mean_ndbi": -0.0238,
+        "mean_ndwi": -0.2026
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "bounds": [
+      620000.0,
+      2954760.0,
+      625120.0,
+      2955400.0
+    ],
+    "geojson_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            620000.0,
+            2954760.0
+          ],
+          [
+            625120.0,
+            2954760.0
+          ],
+          [
+            625120.0,
+            2955400.0
+          ],
+          [
+            620000.0,
+            2955400.0
+          ],
+          [
+            620000.0,
+            2954760.0
+          ]
+        ]
+      ]
+    },
+    "co_registration": {
+      "shift_x_pixels": -0.169,
+      "shift_y_pixels": -0.299,
+      "total_shift_pixels": 0.343,
+      "peak_correlation": 0.4377,
+      "max_allowed_shift_pixels": 1.0,
+      "min_correlation_threshold": 0.5,
+      "is_aligned": false,
+      "status": "MISALIGNED_WARNING",
+      "warning": "Tile pair misregistered by 0.34 px (> 1.0 px threshold)"
+    },
+    "band_difference_stats": {
+      "B02": {
+        "mean_delta": 0.05837,
+        "std_delta": 0.03129,
+        "max_abs_delta": 0.1402,
+        "p95_abs_delta": 0.0999
+      },
+      "B03": {
+        "mean_delta": 0.05031,
+        "std_delta": 0.03624,
+        "max_abs_delta": 0.1596,
+        "p95_abs_delta": 0.0988
+      },
+      "B04": {
+        "mean_delta": 0.04654,
+        "std_delta": 0.0488,
+        "max_abs_delta": 0.1872,
+        "p95_abs_delta": 0.1169
+      },
+      "B08": {
+        "mean_delta": -0.02417,
+        "std_delta": 0.05196,
+        "max_abs_delta": 0.2572,
+        "p95_abs_delta": 0.1176
+      },
+      "B11": {
+        "mean_delta": 0.01632,
+        "std_delta": 0.06103,
+        "max_abs_delta": 0.1904,
+        "p95_abs_delta": 0.1207
+      },
+      "B12": {
+        "mean_delta": 0.0277,
+        "std_delta": 0.07338,
+        "max_abs_delta": 0.2415,
+        "p95_abs_delta": 0.1526
+      },
+      "delta_NDVI": {
+        "mean": -0.1424,
+        "vegetation_loss_area_ratio": 0.363
+      },
+      "delta_NDBI": {
+        "mean": 0.0596,
+        "urban_gain_area_ratio": 0.1704
+      },
+      "delta_NDWI": {
+        "mean": 0.1498,
+        "water_change_area_ratio": 0.2076
+      }
+    },
+    "band_difference_file": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t006_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t006_banddiff.npy"
+  },
+  {
+    "pair_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t007_VS_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t007",
+    "pre_tile": {
+      "tile_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t007",
+      "parent_scene_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2024-03-23",
+      "crs": "EPSG:32644",
+      "bounds": [
+        624800.0,
+        2954760.0,
+        629920.0,
+        2955400.0
+      ],
+      "window": {
+        "col_off": 480,
+        "row_off": 960,
+        "width": 512,
+        "height": 64
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              624800.0,
+              2954760.0
+            ],
+            [
+              629920.0,
+              2954760.0
+            ],
+            [
+              629920.0,
+              2955400.0
+            ],
+            [
+              624800.0,
+              2955400.0
+            ],
+            [
+              624800.0,
+              2954760.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t007.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t007_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t007_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t007_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.0,
+        "shadow_percent": 0.0,
+        "water_percent": 0.0,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 100.0,
+        "mean_cloud_probability": 0.47,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1119,
+          "p_high": 0.2472,
+          "min": 0.1035,
+          "max": 0.4248,
+          "mean": 0.16519,
+          "std": 0.03815
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1357,
+          "p_high": 0.2928,
+          "min": 0.1218,
+          "max": 0.4344,
+          "mean": 0.19777,
+          "std": 0.04337
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1254,
+          "p_high": 0.3262,
+          "min": 0.1162,
+          "max": 0.4496,
+          "mean": 0.21138,
+          "std": 0.05697
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.26807,
+          "p_high": 0.4616,
+          "min": 0.1321,
+          "max": 0.6104,
+          "mean": 0.35672,
+          "std": 0.04345
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.2311,
+          "p_high": 0.4656,
+          "min": 0.166,
+          "max": 0.5269,
+          "mean": 0.34563,
+          "std": 0.06067
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.17663,
+          "p_high": 0.41053,
+          "min": 0.1474,
+          "max": 0.4743,
+          "mean": 0.29494,
+          "std": 0.06587
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.2626,
+        "mean_ndbi": -0.0193,
+        "mean_ndwi": -0.2891
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "post_tile": {
+      "tile_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t007",
+      "parent_scene_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2025-12-13",
+      "crs": "EPSG:32644",
+      "bounds": [
+        624800.0,
+        2954760.0,
+        629920.0,
+        2955400.0
+      ],
+      "window": {
+        "col_off": 480,
+        "row_off": 960,
+        "width": 512,
+        "height": 64
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              624800.0,
+              2954760.0
+            ],
+            [
+              629920.0,
+              2954760.0
+            ],
+            [
+              629920.0,
+              2955400.0
+            ],
+            [
+              624800.0,
+              2955400.0
+            ],
+            [
+              624800.0,
+              2954760.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t007.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t007_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t007_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t007_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.0,
+        "shadow_percent": 0.0,
+        "water_percent": 0.0,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 100.0,
+        "mean_cloud_probability": 0.549,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1739,
+          "p_high": 0.2342,
+          "min": 0.1596,
+          "max": 0.2936,
+          "mean": 0.19592,
+          "std": 0.01639
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1916,
+          "p_high": 0.2582,
+          "min": 0.1722,
+          "max": 0.318,
+          "mean": 0.21619,
+          "std": 0.01826
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1812,
+          "p_high": 0.26873,
+          "min": 0.1638,
+          "max": 0.3618,
+          "mean": 0.21454,
+          "std": 0.02473
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.2824,
+          "p_high": 0.4484,
+          "min": 0.1993,
+          "max": 0.5832,
+          "mean": 0.34111,
+          "std": 0.03602
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.2374,
+          "p_high": 0.3958,
+          "min": 0.145,
+          "max": 0.5581,
+          "mean": 0.3005,
+          "std": 0.03783
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.177,
+          "p_high": 0.35853,
+          "min": 0.131,
+          "max": 1.223,
+          "mean": 0.2444,
+          "std": 0.0541
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.2269,
+        "mean_ndbi": -0.064,
+        "mean_ndwi": -0.2224
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "bounds": [
+      624800.0,
+      2954760.0,
+      629920.0,
+      2955400.0
+    ],
+    "geojson_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            624800.0,
+            2954760.0
+          ],
+          [
+            629920.0,
+            2954760.0
+          ],
+          [
+            629920.0,
+            2955400.0
+          ],
+          [
+            624800.0,
+            2955400.0
+          ],
+          [
+            624800.0,
+            2954760.0
+          ]
+        ]
+      ]
+    },
+    "co_registration": {
+      "shift_x_pixels": 20.275,
+      "shift_y_pixels": 27.772,
+      "total_shift_pixels": 34.385,
+      "peak_correlation": 0.3535,
+      "max_allowed_shift_pixels": 1.0,
+      "min_correlation_threshold": 0.5,
+      "is_aligned": false,
+      "status": "MISALIGNED_WARNING",
+      "warning": "Tile pair misregistered by 34.39 px (> 1.0 px threshold)"
+    },
+    "band_difference_stats": {
+      "B02": {
+        "mean_delta": 0.03073,
+        "std_delta": 0.0433,
+        "max_abs_delta": 0.1666,
+        "p95_abs_delta": 0.10076
+      },
+      "B03": {
+        "mean_delta": 0.01842,
+        "std_delta": 0.04913,
+        "max_abs_delta": 0.153,
+        "p95_abs_delta": 0.1002
+      },
+      "B04": {
+        "mean_delta": 0.00316,
+        "std_delta": 0.0637,
+        "max_abs_delta": 0.1874,
+        "p95_abs_delta": 0.1215
+      },
+      "B08": {
+        "mean_delta": -0.0156,
+        "std_delta": 0.05281,
+        "max_abs_delta": 0.2912,
+        "p95_abs_delta": 0.116
+      },
+      "B11": {
+        "mean_delta": -0.04513,
+        "std_delta": 0.07202,
+        "max_abs_delta": 0.2512,
+        "p95_abs_delta": 0.158
+      },
+      "B12": {
+        "mean_delta": -0.05054,
+        "std_delta": 0.09061,
+        "max_abs_delta": 0.8611,
+        "p95_abs_delta": 0.1829
+      },
+      "delta_NDVI": {
+        "mean": -0.0357,
+        "vegetation_loss_area_ratio": 0.1794
+      },
+      "delta_NDBI": {
+        "mean": -0.0447,
+        "urban_gain_area_ratio": 0.0838
+      },
+      "delta_NDWI": {
+        "mean": 0.0667,
+        "water_change_area_ratio": 0.1216
+      }
+    },
+    "band_difference_file": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t007_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t007_banddiff.npy"
+  },
+  {
+    "pair_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t008_VS_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t008",
+    "pre_tile": {
+      "tile_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t008",
+      "parent_scene_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2024-03-23",
+      "crs": "EPSG:32644",
+      "bounds": [
+        629600.0,
+        2954760.0,
+        630240.0,
+        2955400.0
+      ],
+      "window": {
+        "col_off": 960,
+        "row_off": 960,
+        "width": 64,
+        "height": 64
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              629600.0,
+              2954760.0
+            ],
+            [
+              630240.0,
+              2954760.0
+            ],
+            [
+              630240.0,
+              2955400.0
+            ],
+            [
+              629600.0,
+              2955400.0
+            ],
+            [
+              629600.0,
+              2954760.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t008.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t008_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t008_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t008_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.0,
+        "shadow_percent": 0.0,
+        "water_percent": 0.0,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 100.0,
+        "mean_cloud_probability": 0.472,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1107,
+          "p_high": 0.24364,
+          "min": 0.1048,
+          "max": 0.2676,
+          "mean": 0.16784,
+          "std": 0.03772
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1324,
+          "p_high": 0.29142,
+          "min": 0.1283,
+          "max": 0.3226,
+          "mean": 0.20097,
+          "std": 0.04364
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.11889,
+          "p_high": 0.32646,
+          "min": 0.1144,
+          "max": 0.3664,
+          "mean": 0.21762,
+          "std": 0.05942
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.27778,
+          "p_high": 0.49604,
+          "min": 0.1972,
+          "max": 0.5288,
+          "mean": 0.36871,
+          "std": 0.05138
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.2341,
+          "p_high": 0.4768,
+          "min": 0.2286,
+          "max": 0.5269,
+          "mean": 0.35634,
+          "std": 0.06336
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1743,
+          "p_high": 0.4113,
+          "min": 0.1702,
+          "max": 0.4743,
+          "mean": 0.30445,
+          "std": 0.06723
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.2618,
+        "mean_ndbi": -0.0194,
+        "mean_ndwi": -0.2939
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "post_tile": {
+      "tile_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t008",
+      "parent_scene_id": "S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor",
+      "acquisition_date": "2025-12-13",
+      "crs": "EPSG:32644",
+      "bounds": [
+        629600.0,
+        2954760.0,
+        630240.0,
+        2955400.0
+      ],
+      "window": {
+        "col_off": 960,
+        "row_off": 960,
+        "width": 64,
+        "height": 64
+      },
+      "geojson_geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              629600.0,
+              2954760.0
+            ],
+            [
+              630240.0,
+              2954760.0
+            ],
+            [
+              630240.0,
+              2955400.0
+            ],
+            [
+              629600.0,
+              2955400.0
+            ],
+            [
+              629600.0,
+              2954760.0
+            ]
+          ]
+        ]
+      },
+      "cog_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t008.tif",
+      "quality_mask_path": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t008_quality_mask.npy",
+      "display_preview_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t008_preview.png",
+      "false_color_png": "D:\\PythonProject\\Prototype PS1\\data\\composites\\S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t008_cir.png",
+      "quality_metrics": {
+        "cloud_cover_percent": 0.0,
+        "shadow_percent": 0.0,
+        "water_percent": 0.0,
+        "nodata_percent": 0.0,
+        "usable_data_percent": 100.0,
+        "mean_cloud_probability": 0.545,
+        "quality_flag": "ACCEPTABLE"
+      },
+      "radiometric_normalization": {
+        "B02": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.17349,
+          "p_high": 0.22342,
+          "min": 0.1664,
+          "max": 0.2332,
+          "mean": 0.19358,
+          "std": 0.01326
+        },
+        "B03": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1946,
+          "p_high": 0.246,
+          "min": 0.1882,
+          "max": 0.2554,
+          "mean": 0.21371,
+          "std": 0.01401
+        },
+        "B04": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1874,
+          "p_high": 0.2562,
+          "min": 0.1792,
+          "max": 0.2654,
+          "mean": 0.2134,
+          "std": 0.02
+        },
+        "B08": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.28636,
+          "p_high": 0.44404,
+          "min": 0.2596,
+          "max": 0.514,
+          "mean": 0.3343,
+          "std": 0.02924
+        },
+        "B11": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.2581,
+          "p_high": 0.3795,
+          "min": 0.2486,
+          "max": 0.4202,
+          "mean": 0.29764,
+          "std": 0.02935
+        },
+        "B12": {
+          "lower_percentile": 2.0,
+          "upper_percentile": 98.0,
+          "p_low": 0.1847,
+          "p_high": 0.3166,
+          "min": 0.1739,
+          "max": 0.339,
+          "mean": 0.23546,
+          "std": 0.03841
+        }
+      },
+      "spectral_indices_summary": {
+        "mean_ndvi": 0.22,
+        "mean_ndbi": -0.0582,
+        "mean_ndwi": -0.2188
+      },
+      "authoritative_bands": [
+        "B02",
+        "B03",
+        "B04",
+        "B08",
+        "B11",
+        "B12",
+        "SCL"
+      ]
+    },
+    "bounds": [
+      629600.0,
+      2954760.0,
+      630240.0,
+      2955400.0
+    ],
+    "geojson_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            629600.0,
+            2954760.0
+          ],
+          [
+            630240.0,
+            2954760.0
+          ],
+          [
+            630240.0,
+            2955400.0
+          ],
+          [
+            629600.0,
+            2955400.0
+          ],
+          [
+            629600.0,
+            2954760.0
+          ]
+        ]
+      ]
+    },
+    "co_registration": {
+      "shift_x_pixels": 14.218,
+      "shift_y_pixels": -28.919,
+      "total_shift_pixels": 32.225,
+      "peak_correlation": 0.394,
+      "max_allowed_shift_pixels": 1.0,
+      "min_correlation_threshold": 0.5,
+      "is_aligned": false,
+      "status": "MISALIGNED_WARNING",
+      "warning": "Tile pair misregistered by 32.23 px (> 1.0 px threshold)"
+    },
+    "band_difference_stats": {
+      "B02": {
+        "mean_delta": 0.02574,
+        "std_delta": 0.0428,
+        "max_abs_delta": 0.1141,
+        "p95_abs_delta": 0.0916
+      },
+      "B03": {
+        "mean_delta": 0.01274,
+        "std_delta": 0.04891,
+        "max_abs_delta": 0.1089,
+        "p95_abs_delta": 0.08825
+      },
+      "B04": {
+        "mean_delta": -0.00422,
+        "std_delta": 0.06466,
+        "max_abs_delta": 0.1368,
+        "p95_abs_delta": 0.11143
+      },
+      "B08": {
+        "mean_delta": -0.03441,
+        "std_delta": 0.05282,
+        "max_abs_delta": 0.1978,
+        "p95_abs_delta": 0.1264
+      },
+      "B11": {
+        "mean_delta": -0.05871,
+        "std_delta": 0.06852,
+        "max_abs_delta": 0.2512,
+        "p95_abs_delta": 0.1697
+      },
+      "B12": {
+        "mean_delta": -0.06898,
+        "std_delta": 0.07975,
+        "max_abs_delta": 0.2229,
+        "p95_abs_delta": 0.1757
+      },
+      "delta_NDVI": {
+        "mean": -0.0417,
+        "vegetation_loss_area_ratio": 0.2346
+      },
+      "delta_NDBI": {
+        "mean": -0.0388,
+        "urban_gain_area_ratio": 0.0864
+      },
+      "delta_NDWI": {
+        "mean": 0.0752,
+        "water_change_area_ratio": 0.1765
+      }
+    },
+    "band_difference_file": "D:\\PythonProject\\Prototype PS1\\data\\processed\\S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t008_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t008_banddiff.npy"
+  }
+]

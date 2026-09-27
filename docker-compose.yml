@@ -1,0 +1,104 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    container_name: miraenova_postgis
+    environment:
+      POSTGRES_USER: mirae_admin
+      POSTGRES_PASSWORD: mirae_secure_password
+      POSTGRES_DB: miraenova_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mirae_admin -d miraenova_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - miraenova_net
+
+  redis:
+    image: redis:7-alpine
+    container_name: miraenova_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - miraenova_net
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: miraenova_backend
+    environment:
+      - DATABASE_URL=postgresql://mirae_admin:mirae_secure_password@db:5432/miraenova_db
+      - REDIS_URL=redis://redis:6379/0
+      - TITILER_ENDPOINT=http://titiler:8000
+    volumes:
+      - ./data:/app/data
+      - ./ml:/app/ml
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    networks:
+      - miraenova_net
+
+  celery_worker:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: miraenova_worker
+    command: celery -A backend.app.tasks.celery_app worker --loglevel=info -c 2
+    environment:
+      - DATABASE_URL=postgresql://mirae_admin:mirae_secure_password@db:5432/miraenova_db
+      - REDIS_URL=redis://redis:6379/0
+    volumes:
+      - ./data:/app/data
+      - ./ml:/app/ml
+    depends_on:
+      - redis
+      - db
+    networks:
+      - miraenova_net
+
+  titiler:
+    image: ghcr.io/developmentseed/titiler:latest
+    container_name: miraenova_titiler
+    environment:
+      - PORT=8000
+      - WORKERS_PER_CORE=1
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./data:/data
+    networks:
+      - miraenova_net
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: miraenova_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - miraenova_net
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  miraenova_net:
+    driver: bridge
