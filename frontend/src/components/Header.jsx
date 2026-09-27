@@ -1,7 +1,7 @@
 import React from "react";
 import { Satellite, ShieldCheck, Database, Lock, Activity, Layers } from "lucide-react";
 
-export default function Header({ onOpenAudit, auditCount = 0 }) {
+export default function Header({ onOpenAudit, onOpenSystemStatus, auditCount = 0 }) {
   return (
     <header style={{
       background: "linear-gradient(180deg, rgba(15, 23, 42, 0.95) 0%, rgba(11, 15, 25, 0.9) 100%)",
@@ -61,8 +61,28 @@ export default function Header({ onOpenAudit, auditCount = 0 }) {
         </div>
       </div>
 
-      {/* System Status Indicators */}
-      <div style={{ display: "flex", alignItems: "center", gap: "14px" }}>
+      {/* System Status Indicators & Diagnostic Triggers */}
+      <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+        {/* System Diagnostics Telemetry Button */}
+        <button
+          onClick={onOpenSystemStatus}
+          className="tactical-btn"
+          style={{
+            background: "rgba(56, 189, 248, 0.12)",
+            border: "1px solid rgba(56, 189, 248, 0.4)",
+            color: "#38bdf8",
+            padding: "6px 12px",
+            fontSize: "0.74rem",
+            display: "flex",
+            alignItems: "center",
+            gap: "6px",
+          }}
+          title="Open platform hardware, model backbones, and offline telemetry"
+        >
+          <Activity size={14} />
+          <span>System Telemetry</span>
+        </button>
+
         {/* Raw Band Status */}
         <div style={{
           display: "flex",
@@ -72,7 +92,7 @@ export default function Header({ onOpenAudit, auditCount = 0 }) {
           padding: "6px 12px",
           borderRadius: 6,
           border: "1px solid rgba(100, 116, 139, 0.3)",
-          fontSize: "0.75rem",
+          fontSize: "0.74rem",
         }}>
           <Layers size={14} color="#38bdf8" />
           <span style={{ color: "#94a3b8" }}>Source:</span>
@@ -88,7 +108,7 @@ export default function Header({ onOpenAudit, auditCount = 0 }) {
           padding: "6px 12px",
           borderRadius: 6,
           border: "1px solid rgba(16, 185, 129, 0.35)",
-          fontSize: "0.75rem",
+          fontSize: "0.74rem",
         }}>
           <span style={{
             width: 8,
@@ -109,7 +129,7 @@ export default function Header({ onOpenAudit, auditCount = 0 }) {
             border: "1px solid rgba(245, 158, 11, 0.4)",
             color: "#fbbf24",
             padding: "6px 14px",
-            fontSize: "0.75rem",
+            fontSize: "0.74rem",
           }}
         >
           <Lock size={14} />
@@ -119,3 +139,4 @@ export default function Header({ onOpenAudit, auditCount = 0 }) {
     </header>
   );
 }
+

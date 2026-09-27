@@ -143,6 +143,14 @@ class TamperProofAuditLedger:
 
         return True, len(self.chain), None
 
+    def verify_chain_integrity(self) -> Tuple[bool, str]:
+        """Convenience method returning (is_valid, status_description)."""
+        is_valid, total, err_idx = self.verify_integrity()
+        if is_valid:
+            return True, f"Ledger verified unbroken ({total} blocks cryptographically secured)"
+        return False, f"Ledger tamper detected at block index {err_idx}"
+
+
 
 _GLOBAL_LEDGER: Optional[TamperProofAuditLedger] = None
 

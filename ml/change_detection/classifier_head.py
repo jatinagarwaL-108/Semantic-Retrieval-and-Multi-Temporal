@@ -145,9 +145,41 @@ class ChangeTypeClassifier:
         confidence = float(probs[best_idx])
         confidence = min(0.98, max(0.68, confidence))
 
+        # Determine military intelligence severity and tactical summary
+        if predicted_class == ChangeClass.CONSTRUCTION:
+            if confidence >= 0.80 or d_ndbi >= 0.15:
+                severity = "high"
+                tactical_summary = "Permanent engineered facility / concrete built-up installation"
+            else:
+                severity = "medium"
+                tactical_summary = "Secondary structure or early facility groundworks"
+        elif predicted_class == ChangeClass.ROAD:
+            if spatial_aspect_ratio >= 3.5:
+                severity = "high"
+                tactical_summary = "Primary strategic linear transit corridor / arterial road expansion"
+            else:
+                severity = "medium"
+                tactical_summary = "Secondary access road / unpaved transit route"
+        elif predicted_class == ChangeClass.WATER:
+            if abs(d_ndwi) >= 0.20:
+                severity = "medium"
+                tactical_summary = "Hydraulic redirection, river channel diversion or reservoir modification"
+            else:
+                severity = "low"
+                tactical_summary = "Seasonal littoral boundary shift / surface drainage fluctuation"
+        else:  # CLEARANCE
+            if d_ndvi <= -0.25:
+                severity = "high"
+                tactical_summary = "Massive terrain clearance / staging ground preparation"
+            else:
+                severity = "low"
+                tactical_summary = "Vegetation thinning / localized soil surface grading"
+
         explanation = {
             "predicted_class": predicted_class.value,
             "confidence_percent": round(confidence * 100.0, 1),
+            "severity": severity,
+            "tactical_summary": tactical_summary,
             "color_hex": CLASS_COLORS[predicted_class],
             "class_probabilities": {c.value: round(float(p), 3) for c, p in zip(classes, probs)},
             "spectral_metrics": {
@@ -163,3 +195,4 @@ class ChangeTypeClassifier:
         }
 
         return predicted_class, confidence, explanation
+

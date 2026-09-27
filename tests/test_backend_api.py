@@ -70,3 +70,42 @@ def test_analyst_review_and_audit_trail():
     audit_data = audit_res.json()
     assert audit_data["is_valid"] is True
     assert audit_data["total_records"] >= 1
+
+
+def test_system_status_telemetry():
+    res = client.get("/api/system-status")
+    assert res.status_code == 200
+    data = res.json()
+    assert data["status"] == "operational"
+    assert "BIT" in data["ai_model"]
+    assert "RemoteCLIP" in data["embedding_model"]
+    assert data["audit_integrity_verified"] is True
+    assert len(data["spectral_bands"]) >= 6
+
+
+def test_unsupervised_cluster_discovery():
+    res = client.post("/api/clusters/discover", json={"reference_location": [82.20, 26.80], "radius_km": 25.0})
+    assert res.status_code == 200
+    data = res.json()
+    assert data["status"] == "SUCCESS"
+    assert len(data["clusters"]) >= 1
+    c0 = data["clusters"][0]
+    assert "cluster_id" in c0
+    assert "severity" in c0
+    assert "similarity" in c0
+
+    # Also test alias
+    res_alias = client.post("/api/discover-clusters", json={"reference_location": [82.20, 26.80]})
+    assert res_alias.status_code == 200
+
+
+def test_export_intelligence_report():
+    res = client.get("/api/analyst/export-report/instant_t000")
+    assert res.status_code == 200
+    data = res.json()
+    assert "DEFENSE RESTRICTED" in data["classification"]
+    assert "report_id" in data
+    assert "digital_seal_sha256" in data["cryptographic_verification"]
+    assert len(data["polygon_inventory"]) >= 1
+    assert "markdown_report" in data
+

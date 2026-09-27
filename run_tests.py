@@ -41,6 +41,9 @@ def run_all():
             test_instant_change_detection,
             test_tile_preview,
             test_analyst_review_and_audit_trail,
+            test_system_status_telemetry,
+            test_unsupervised_cluster_discovery,
+            test_export_intelligence_report,
         )
         tests.extend([
             ("Backend API: Health Endpoint", test_health_endpoint),
@@ -49,7 +52,11 @@ def run_all():
             ("Backend API: Change Detection Execution", test_instant_change_detection),
             ("Backend API: Dynamic Tile Preview Rendering", test_tile_preview),
             ("Backend API: Analyst Review & Tamper-Proof Audit", test_analyst_review_and_audit_trail),
+            ("Backend API: System Telemetry & Hardware Diagnostics", test_system_status_telemetry),
+            ("Backend API: Unsupervised Spatial & Semantic Clustering", test_unsupervised_cluster_discovery),
+            ("Backend API: Defense Intelligence Signed Brief Export", test_export_intelligence_report),
         ])
+
     except Exception as e:
         print(f"Warning loading backend tests: {e}")
 

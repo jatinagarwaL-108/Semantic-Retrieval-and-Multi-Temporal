@@ -12,7 +12,17 @@ from fastapi.staticfiles import StaticFiles
 import os
 
 from backend.app.config import settings
-from backend.app.routes import search, scenes, change_detection, reliability, analyst, audit, tiles
+from backend.app.routes import (
+    search,
+    scenes,
+    change_detection,
+    reliability,
+    analyst,
+    audit,
+    tiles,
+    clusters,
+    system_status,
+)
 from ml.remote_clip.vector_index import get_vector_index
 
 app = FastAPI(
@@ -34,7 +44,7 @@ app.add_middleware(
 if os.path.exists("data/composites"):
     app.mount("/static/composites", StaticFiles(directory="data/composites"), name="composites")
 
-# Register API routes
+# Register API routes (both /api/v1 and top-level /api for maximum compatibility)
 app.include_router(search.router, prefix=settings.API_V1_STR)
 app.include_router(scenes.router, prefix=settings.API_V1_STR)
 app.include_router(change_detection.router, prefix=settings.API_V1_STR)
@@ -42,6 +52,13 @@ app.include_router(reliability.router, prefix=settings.API_V1_STR)
 app.include_router(analyst.router, prefix=settings.API_V1_STR)
 app.include_router(audit.router, prefix=settings.API_V1_STR)
 app.include_router(tiles.router, prefix=settings.API_V1_STR)
+app.include_router(clusters.router, prefix=settings.API_V1_STR)
+app.include_router(system_status.router, prefix=settings.API_V1_STR)
+
+# Top-level /api aliases for direct endpoints
+app.include_router(clusters.router, prefix="/api")
+app.include_router(system_status.router, prefix="/api")
+
 
 
 @app.on_event("startup")

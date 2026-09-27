@@ -119,7 +119,8 @@ class ChangeDetectionEngine:
                 spatial_aspect_ratio=aspect_ratio,
             )
 
-            # Area in hectares (Sentinel-2 10m pixels: 1 px = 100 m^2 = 0.01 hectares)
+            # Area in hectares and square meters (Sentinel-2 10m pixels: 1 px = 100 m^2 = 0.01 hectares)
+            area_sqm = int(area_px * 100)
             area_hectares = round(area_px * 0.01, 2)
             total_changed_hectares += area_hectares
             summary_counts[change_cls.value] += 1
@@ -150,6 +151,9 @@ class ChangeDetectionEngine:
             cx_px, cy_px = centroids[label_idx]
             gx_c, gy_c = rasterio.transform.xy(post_stack.transform, cy_px, cx_px)
 
+            severity = explanation.get("severity", "medium")
+            tactical_summary = explanation.get("tactical_summary", "")
+
             feature = {
                 "type": "Feature",
                 "id": f"chg_{label_idx:03d}",
@@ -160,9 +164,12 @@ class ChangeDetectionEngine:
                 "properties": {
                     "change_id": f"CHG_{label_idx:03d}",
                     "change_type": change_cls.value,
+                    "severity": severity,
+                    "tactical_summary": tactical_summary,
                     "confidence_score": round(confidence, 3),
                     "confidence_percent": round(confidence * 100.0, 1),
                     "area_pixels": area_px,
+                    "area_sqm": area_sqm,
                     "area_hectares": area_hectares,
                     "color_hex": CLASS_COLORS[change_cls],
                     "centroid": [round(gx_c, 2), round(gy_c, 2)],
@@ -175,18 +182,27 @@ class ChangeDetectionEngine:
             }
             features.append(feature)
 
+        severity_counts = {
+            "high": sum(1 for f in features if f["properties"].get("severity") == "high"),
+            "medium": sum(1 for f in features if f["properties"].get("severity") == "medium"),
+            "low": sum(1 for f in features if f["properties"].get("severity") == "low"),
+        }
+
         geojson_result = {
             "type": "FeatureCollection",
             "features": features,
             "properties": {
                 "total_detections": len(features),
                 "total_changed_hectares": round(total_changed_hectares, 2),
+                "total_changed_sqm": int(round(total_changed_hectares * 10000.0)),
                 "breakdown": summary_counts,
+                "severity_breakdown": severity_counts,
                 "pre_scene_id": pre_stack.scene_id,
                 "post_scene_id": post_stack.scene_id,
                 "pre_date": pre_stack.acquisition_date,
                 "post_date": post_stack.acquisition_date,
             },
         }
+
 
         return geojson_result, rel_report

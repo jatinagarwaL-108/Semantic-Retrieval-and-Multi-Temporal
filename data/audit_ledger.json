@@ -163,5 +163,52 @@
       }
     },
     "verified": true
+  },
+  {
+    "block_index": 8,
+    "prev_hash": "b8fde8f56013a869f82662b7d9968bdda2bce01ab0c0cd8fcd0d34bca061b081",
+    "block_hash": "65d08e25a8471408bf109b3425142e83417219ca92de380ab58e49e75671ec32",
+    "timestamp": "2026-09-27T10:45:57.322165+00:00",
+    "analyst_user": "Captain_Vikram_Rathore",
+    "tile_pair_id": "S2A_t001_VS_S2B_t001",
+    "change_id": "CHG_001",
+    "decision": "CONFIRM_REAL_CHANGE",
+    "evidence": {
+      "change_type": "CONSTRUCTION",
+      "confidence_percent": 94.5,
+      "analyst_notes": "Confirmed concrete foundation and superstructure near river corridor.",
+      "polygon_evidence": {
+        "area_hectares": 1.25,
+        "coords": [
+          415500,
+          2962000
+        ]
+      }
+    },
+    "verified": true
+  },
+  {
+    "block_index": 9,
+    "prev_hash": "65d08e25a8471408bf109b3425142e83417219ca92de380ab58e49e75671ec32",
+    "block_hash": "68cdca077d823ff44a4b6de9cc017893e7069d1aa735f8bf8103606635c5b7cb",
+    "timestamp": "2026-09-27T10:47:49.929135+00:00",
+    "analyst_user": "Senior_Analyst_Vikram",
+    "tile_pair_id": "S2B_MSIL2A_20240_Ayodhya_Sarayu_Corridor_t001_VS_S2B_MSIL2A_20251_Ayodhya_Sarayu_Corridor_t001",
+    "change_id": "CHG_001",
+    "decision": "CONFIRM_REAL_CHANGE",
+    "evidence": {
+      "change_type": "CLEARANCE",
+      "confidence_percent": 68.0,
+      "analyst_notes": "End-to-end verification confirmed by automated demo pipeline.",
+      "polygon_evidence": {
+        "area_hectares": 106.72,
+        "first_seen_date": "2025-12-13",
+        "centroid": [
+          625375.47,
+          2964067.95
+        ]
+      }
+    },
+    "verified": true
   }
 ]

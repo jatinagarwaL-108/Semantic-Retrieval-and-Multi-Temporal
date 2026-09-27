@@ -7,6 +7,7 @@ import Step3ChangeExplorer from "./components/Step3ChangeExplorer";
 import Step4QualityCheck from "./components/Step4QualityCheck";
 import Step5AnalystReview from "./components/Step5AnalystReview";
 import AuditModal from "./components/AuditModal";
+import SystemStatusModal from "./components/SystemStatusModal";
 
 const API_BASE = "http://localhost:8000/api";
 
@@ -21,6 +22,8 @@ export default function App() {
   const [reliabilityData, setReliabilityData] = useState(null);
   const [auditData, setAuditData] = useState({ ledger: [], is_valid: true });
   const [isAuditModalOpen, setIsAuditModalOpen] = useState(false);
+  const [isSystemStatusModalOpen, setIsSystemStatusModalOpen] = useState(false);
+
 
   // Load initial audit trail & demo catalog on startup
   useEffect(() => {
@@ -211,6 +214,7 @@ export default function App() {
       {/* Tactical Top Bar */}
       <Header
         onOpenAudit={() => setIsAuditModalOpen(true)}
+        onOpenSystemStatus={() => setIsSystemStatusModalOpen(true)}
         auditCount={auditData.ledger?.length || 0}
       />
 
@@ -270,6 +274,13 @@ export default function App() {
         auditData={auditData}
         onVerify={handleVerifyAudit}
       />
+
+      {/* System Status Telemetry Modal */}
+      <SystemStatusModal
+        isOpen={isSystemStatusModalOpen}
+        onClose={() => setIsSystemStatusModalOpen(false)}
+      />
     </div>
   );
 }
+
